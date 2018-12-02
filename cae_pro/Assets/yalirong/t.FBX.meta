@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 2550a380f7786744ab7691030c91e95f
+timeCreated: 1521919700
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: VIFS031
+    100004: VIFS032
+    100006: VIFS033
+    100008: VIFS034
+    100010: VIFS035
+    100012: VIFS036
+    100014: VIFS037
+    100016: VIFS038
+    100018: VIFS039
+    100020: VIFS040
+    100022: VIFS041
+    100024: VIFS042
+    100026: VIFS043
+    100028: VIFS044
+    100030: VIFS045
+    100032: VIFS046
+    100034: VIFS047
+    400000: //RootNode
+    400002: VIFS031
+    400004: VIFS032
+    400006: VIFS033
+    400008: VIFS034
+    400010: VIFS035
+    400012: VIFS036
+    400014: VIFS037
+    400016: VIFS038
+    400018: VIFS039
+    400020: VIFS040
+    400022: VIFS041
+    400024: VIFS042
+    400026: VIFS043
+    400028: VIFS044
+    400030: VIFS045
+    400032: VIFS046
+    400034: VIFS047
+    2300000: VIFS031
+    2300002: VIFS032
+    2300004: VIFS033
+    2300006: VIFS034
+    2300008: VIFS035
+    2300010: VIFS036
+    2300012: VIFS037
+    2300014: VIFS038
+    2300016: VIFS039
+    2300018: VIFS040
+    2300020: VIFS041
+    2300022: VIFS042
+    2300024: VIFS043
+    2300026: VIFS044
+    2300028: VIFS045
+    2300030: VIFS046
+    2300032: VIFS047
+    3300000: VIFS031
+    3300002: VIFS032
+    3300004: VIFS033
+    3300006: VIFS034
+    3300008: VIFS035
+    3300010: VIFS036
+    3300012: VIFS037
+    3300014: VIFS038
+    3300016: VIFS039
+    3300018: VIFS040
+    3300020: VIFS041
+    3300022: VIFS042
+    3300024: VIFS043
+    3300026: VIFS044
+    3300028: VIFS045
+    3300030: VIFS046
+    3300032: VIFS047
+    4300000: VIFS031
+    4300002: VIFS032
+    4300004: VIFS033
+    4300006: VIFS034
+    4300008: VIFS035
+    4300010: VIFS036
+    4300012: VIFS037
+    4300014: VIFS038
+    4300016: VIFS039
+    4300018: VIFS040
+    4300020: VIFS041
+    4300022: VIFS042
+    4300024: VIFS043
+    4300026: VIFS044
+    4300028: VIFS045
+    4300030: VIFS046
+    4300032: VIFS047
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

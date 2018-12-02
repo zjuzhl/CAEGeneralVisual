@@ -1,0 +1,807 @@
+fileFormatVersion: 2
+guid: 95e0d5b1955ef584582414fd68a6c780
+timeCreated: 1510302552
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object002
+    100004: Object002 1
+    100006: Object002 10
+    100008: Object002 11
+    100010: Object002 12
+    100012: Object002 13
+    100014: Object002 14
+    100016: Object002 15
+    100018: Object002 16
+    100020: Object002 17
+    100022: Object002 18
+    100024: Object002 19
+    100026: Object002 2
+    100028: Object002 20
+    100030: Object002 21
+    100032: Object002 22
+    100034: Object002 23
+    100036: Object002 24
+    100038: Object002 25
+    100040: Object002 26
+    100042: Object002 27
+    100044: Object002 28
+    100046: Object002 29
+    100048: Object002 3
+    100050: Object002 30
+    100052: Object002 31
+    100054: Object002 32
+    100056: Object002 33
+    100058: Object002 34
+    100060: Object002 35
+    100062: Object002 4
+    100064: Object002 5
+    100066: Object002 6
+    100068: Object002 7
+    100070: Object002 8
+    100072: Object002 9
+    100074: Rectangle006
+    100076: Rectangle006 1
+    100078: Rectangle006 10
+    100080: Rectangle006 11
+    100082: Rectangle006 12
+    100084: Rectangle006 13
+    100086: Rectangle006 14
+    100088: Rectangle006 15
+    100090: Rectangle006 16
+    100092: Rectangle006 17
+    100094: Rectangle006 18
+    100096: Rectangle006 19
+    100098: Rectangle006 2
+    100100: Rectangle006 20
+    100102: Rectangle006 21
+    100104: Rectangle006 22
+    100106: Rectangle006 23
+    100108: Rectangle006 24
+    100110: Rectangle006 25
+    100112: Rectangle006 26
+    100114: Rectangle006 27
+    100116: Rectangle006 28
+    100118: Rectangle006 29
+    100120: Rectangle006 3
+    100122: Rectangle006 30
+    100124: Rectangle006 31
+    100126: Rectangle006 32
+    100128: Rectangle006 33
+    100130: Rectangle006 34
+    100132: Rectangle006 35
+    100134: Rectangle006 4
+    100136: Rectangle006 5
+    100138: Rectangle006 6
+    100140: Rectangle006 7
+    100142: Rectangle006 8
+    100144: Rectangle006 9
+    100146: Rectangle007
+    100148: Rectangle007 1
+    100150: Rectangle007 10
+    100152: Rectangle007 11
+    100154: Rectangle007 12
+    100156: Rectangle007 13
+    100158: Rectangle007 14
+    100160: Rectangle007 15
+    100162: Rectangle007 16
+    100164: Rectangle007 17
+    100166: Rectangle007 18
+    100168: Rectangle007 19
+    100170: Rectangle007 2
+    100172: Rectangle007 20
+    100174: Rectangle007 21
+    100176: Rectangle007 22
+    100178: Rectangle007 23
+    100180: Rectangle007 24
+    100182: Rectangle007 25
+    100184: Rectangle007 26
+    100186: Rectangle007 27
+    100188: Rectangle007 28
+    100190: Rectangle007 29
+    100192: Rectangle007 3
+    100194: Rectangle007 30
+    100196: Rectangle007 31
+    100198: Rectangle007 32
+    100200: Rectangle007 33
+    100202: Rectangle007 34
+    100204: Rectangle007 35
+    100206: Rectangle007 4
+    100208: Rectangle007 5
+    100210: Rectangle007 6
+    100212: Rectangle007 7
+    100214: Rectangle007 8
+    100216: Rectangle007 9
+    100218: Rectangle043
+    100220: Rectangle043 1
+    100222: Rectangle043 10
+    100224: Rectangle043 11
+    100226: Rectangle043 12
+    100228: Rectangle043 13
+    100230: Rectangle043 14
+    100232: Rectangle043 15
+    100234: Rectangle043 16
+    100236: Rectangle043 17
+    100238: Rectangle043 18
+    100240: Rectangle043 19
+    100242: Rectangle043 2
+    100244: Rectangle043 20
+    100246: Rectangle043 21
+    100248: Rectangle043 22
+    100250: Rectangle043 23
+    100252: Rectangle043 24
+    100254: Rectangle043 25
+    100256: Rectangle043 26
+    100258: Rectangle043 27
+    100260: Rectangle043 28
+    100262: Rectangle043 29
+    100264: Rectangle043 3
+    100266: Rectangle043 30
+    100268: Rectangle043 31
+    100270: Rectangle043 32
+    100272: Rectangle043 33
+    100274: Rectangle043 4
+    100276: Rectangle043 5
+    100278: Rectangle043 6
+    100280: Rectangle043 7
+    100282: Rectangle043 8
+    100284: Rectangle043 9
+    100286: Shape001
+    100288: Shape002
+    100290: Shape003
+    100292: "\u3000\uE813\uE811"
+    100294: "\uE814\uE812"
+    400000: //RootNode
+    400002: Object002
+    400004: Object002 1
+    400006: Object002 10
+    400008: Object002 11
+    400010: Object002 12
+    400012: Object002 13
+    400014: Object002 14
+    400016: Object002 15
+    400018: Object002 16
+    400020: Object002 17
+    400022: Object002 18
+    400024: Object002 19
+    400026: Object002 2
+    400028: Object002 20
+    400030: Object002 21
+    400032: Object002 22
+    400034: Object002 23
+    400036: Object002 24
+    400038: Object002 25
+    400040: Object002 26
+    400042: Object002 27
+    400044: Object002 28
+    400046: Object002 29
+    400048: Object002 3
+    400050: Object002 30
+    400052: Object002 31
+    400054: Object002 32
+    400056: Object002 33
+    400058: Object002 34
+    400060: Object002 35
+    400062: Object002 4
+    400064: Object002 5
+    400066: Object002 6
+    400068: Object002 7
+    400070: Object002 8
+    400072: Object002 9
+    400074: Rectangle006
+    400076: Rectangle006 1
+    400078: Rectangle006 10
+    400080: Rectangle006 11
+    400082: Rectangle006 12
+    400084: Rectangle006 13
+    400086: Rectangle006 14
+    400088: Rectangle006 15
+    400090: Rectangle006 16
+    400092: Rectangle006 17
+    400094: Rectangle006 18
+    400096: Rectangle006 19
+    400098: Rectangle006 2
+    400100: Rectangle006 20
+    400102: Rectangle006 21
+    400104: Rectangle006 22
+    400106: Rectangle006 23
+    400108: Rectangle006 24
+    400110: Rectangle006 25
+    400112: Rectangle006 26
+    400114: Rectangle006 27
+    400116: Rectangle006 28
+    400118: Rectangle006 29
+    400120: Rectangle006 3
+    400122: Rectangle006 30
+    400124: Rectangle006 31
+    400126: Rectangle006 32
+    400128: Rectangle006 33
+    400130: Rectangle006 34
+    400132: Rectangle006 35
+    400134: Rectangle006 4
+    400136: Rectangle006 5
+    400138: Rectangle006 6
+    400140: Rectangle006 7
+    400142: Rectangle006 8
+    400144: Rectangle006 9
+    400146: Rectangle007
+    400148: Rectangle007 1
+    400150: Rectangle007 10
+    400152: Rectangle007 11
+    400154: Rectangle007 12
+    400156: Rectangle007 13
+    400158: Rectangle007 14
+    400160: Rectangle007 15
+    400162: Rectangle007 16
+    400164: Rectangle007 17
+    400166: Rectangle007 18
+    400168: Rectangle007 19
+    400170: Rectangle007 2
+    400172: Rectangle007 20
+    400174: Rectangle007 21
+    400176: Rectangle007 22
+    400178: Rectangle007 23
+    400180: Rectangle007 24
+    400182: Rectangle007 25
+    400184: Rectangle007 26
+    400186: Rectangle007 27
+    400188: Rectangle007 28
+    400190: Rectangle007 29
+    400192: Rectangle007 3
+    400194: Rectangle007 30
+    400196: Rectangle007 31
+    400198: Rectangle007 32
+    400200: Rectangle007 33
+    400202: Rectangle007 34
+    400204: Rectangle007 35
+    400206: Rectangle007 4
+    400208: Rectangle007 5
+    400210: Rectangle007 6
+    400212: Rectangle007 7
+    400214: Rectangle007 8
+    400216: Rectangle007 9
+    400218: Rectangle043
+    400220: Rectangle043 1
+    400222: Rectangle043 10
+    400224: Rectangle043 11
+    400226: Rectangle043 12
+    400228: Rectangle043 13
+    400230: Rectangle043 14
+    400232: Rectangle043 15
+    400234: Rectangle043 16
+    400236: Rectangle043 17
+    400238: Rectangle043 18
+    400240: Rectangle043 19
+    400242: Rectangle043 2
+    400244: Rectangle043 20
+    400246: Rectangle043 21
+    400248: Rectangle043 22
+    400250: Rectangle043 23
+    400252: Rectangle043 24
+    400254: Rectangle043 25
+    400256: Rectangle043 26
+    400258: Rectangle043 27
+    400260: Rectangle043 28
+    400262: Rectangle043 29
+    400264: Rectangle043 3
+    400266: Rectangle043 30
+    400268: Rectangle043 31
+    400270: Rectangle043 32
+    400272: Rectangle043 33
+    400274: Rectangle043 4
+    400276: Rectangle043 5
+    400278: Rectangle043 6
+    400280: Rectangle043 7
+    400282: Rectangle043 8
+    400284: Rectangle043 9
+    400286: Shape001
+    400288: Shape002
+    400290: Shape003
+    400292: "\u3000\uE813\uE811"
+    400294: "\uE814\uE812"
+    2300000: Object002
+    2300002: Object002 1
+    2300004: Object002 10
+    2300006: Object002 11
+    2300008: Object002 12
+    2300010: Object002 13
+    2300012: Object002 14
+    2300014: Object002 15
+    2300016: Object002 16
+    2300018: Object002 17
+    2300020: Object002 18
+    2300022: Object002 19
+    2300024: Object002 2
+    2300026: Object002 20
+    2300028: Object002 21
+    2300030: Object002 22
+    2300032: Object002 23
+    2300034: Object002 24
+    2300036: Object002 25
+    2300038: Object002 26
+    2300040: Object002 27
+    2300042: Object002 28
+    2300044: Object002 29
+    2300046: Object002 3
+    2300048: Object002 30
+    2300050: Object002 31
+    2300052: Object002 32
+    2300054: Object002 33
+    2300056: Object002 34
+    2300058: Object002 35
+    2300060: Object002 4
+    2300062: Object002 5
+    2300064: Object002 6
+    2300066: Object002 7
+    2300068: Object002 8
+    2300070: Object002 9
+    2300072: Rectangle006
+    2300074: Rectangle006 1
+    2300076: Rectangle006 10
+    2300078: Rectangle006 11
+    2300080: Rectangle006 12
+    2300082: Rectangle006 13
+    2300084: Rectangle006 14
+    2300086: Rectangle006 15
+    2300088: Rectangle006 16
+    2300090: Rectangle006 17
+    2300092: Rectangle006 18
+    2300094: Rectangle006 19
+    2300096: Rectangle006 2
+    2300098: Rectangle006 20
+    2300100: Rectangle006 21
+    2300102: Rectangle006 22
+    2300104: Rectangle006 23
+    2300106: Rectangle006 24
+    2300108: Rectangle006 25
+    2300110: Rectangle006 26
+    2300112: Rectangle006 27
+    2300114: Rectangle006 28
+    2300116: Rectangle006 29
+    2300118: Rectangle006 3
+    2300120: Rectangle006 30
+    2300122: Rectangle006 31
+    2300124: Rectangle006 32
+    2300126: Rectangle006 33
+    2300128: Rectangle006 34
+    2300130: Rectangle006 35
+    2300132: Rectangle006 4
+    2300134: Rectangle006 5
+    2300136: Rectangle006 6
+    2300138: Rectangle006 7
+    2300140: Rectangle006 8
+    2300142: Rectangle006 9
+    2300144: Rectangle007
+    2300146: Rectangle007 1
+    2300148: Rectangle007 10
+    2300150: Rectangle007 11
+    2300152: Rectangle007 12
+    2300154: Rectangle007 13
+    2300156: Rectangle007 14
+    2300158: Rectangle007 15
+    2300160: Rectangle007 16
+    2300162: Rectangle007 17
+    2300164: Rectangle007 18
+    2300166: Rectangle007 19
+    2300168: Rectangle007 2
+    2300170: Rectangle007 20
+    2300172: Rectangle007 21
+    2300174: Rectangle007 22
+    2300176: Rectangle007 23
+    2300178: Rectangle007 24
+    2300180: Rectangle007 25
+    2300182: Rectangle007 26
+    2300184: Rectangle007 27
+    2300186: Rectangle007 28
+    2300188: Rectangle007 29
+    2300190: Rectangle007 3
+    2300192: Rectangle007 30
+    2300194: Rectangle007 31
+    2300196: Rectangle007 32
+    2300198: Rectangle007 33
+    2300200: Rectangle007 34
+    2300202: Rectangle007 35
+    2300204: Rectangle007 4
+    2300206: Rectangle007 5
+    2300208: Rectangle007 6
+    2300210: Rectangle007 7
+    2300212: Rectangle007 8
+    2300214: Rectangle007 9
+    2300216: Rectangle043
+    2300218: Rectangle043 1
+    2300220: Rectangle043 10
+    2300222: Rectangle043 11
+    2300224: Rectangle043 12
+    2300226: Rectangle043 13
+    2300228: Rectangle043 14
+    2300230: Rectangle043 15
+    2300232: Rectangle043 16
+    2300234: Rectangle043 17
+    2300236: Rectangle043 18
+    2300238: Rectangle043 19
+    2300240: Rectangle043 2
+    2300242: Rectangle043 20
+    2300244: Rectangle043 21
+    2300246: Rectangle043 22
+    2300248: Rectangle043 23
+    2300250: Rectangle043 24
+    2300252: Rectangle043 25
+    2300254: Rectangle043 26
+    2300256: Rectangle043 27
+    2300258: Rectangle043 28
+    2300260: Rectangle043 29
+    2300262: Rectangle043 3
+    2300264: Rectangle043 30
+    2300266: Rectangle043 31
+    2300268: Rectangle043 32
+    2300270: Rectangle043 33
+    2300272: Rectangle043 4
+    2300274: Rectangle043 5
+    2300276: Rectangle043 6
+    2300278: Rectangle043 7
+    2300280: Rectangle043 8
+    2300282: Rectangle043 9
+    2300284: Shape001
+    2300286: Shape002
+    2300288: Shape003
+    3300000: Object002
+    3300002: Object002 1
+    3300004: Object002 10
+    3300006: Object002 11
+    3300008: Object002 12
+    3300010: Object002 13
+    3300012: Object002 14
+    3300014: Object002 15
+    3300016: Object002 16
+    3300018: Object002 17
+    3300020: Object002 18
+    3300022: Object002 19
+    3300024: Object002 2
+    3300026: Object002 20
+    3300028: Object002 21
+    3300030: Object002 22
+    3300032: Object002 23
+    3300034: Object002 24
+    3300036: Object002 25
+    3300038: Object002 26
+    3300040: Object002 27
+    3300042: Object002 28
+    3300044: Object002 29
+    3300046: Object002 3
+    3300048: Object002 30
+    3300050: Object002 31
+    3300052: Object002 32
+    3300054: Object002 33
+    3300056: Object002 34
+    3300058: Object002 35
+    3300060: Object002 4
+    3300062: Object002 5
+    3300064: Object002 6
+    3300066: Object002 7
+    3300068: Object002 8
+    3300070: Object002 9
+    3300072: Rectangle006
+    3300074: Rectangle006 1
+    3300076: Rectangle006 10
+    3300078: Rectangle006 11
+    3300080: Rectangle006 12
+    3300082: Rectangle006 13
+    3300084: Rectangle006 14
+    3300086: Rectangle006 15
+    3300088: Rectangle006 16
+    3300090: Rectangle006 17
+    3300092: Rectangle006 18
+    3300094: Rectangle006 19
+    3300096: Rectangle006 2
+    3300098: Rectangle006 20
+    3300100: Rectangle006 21
+    3300102: Rectangle006 22
+    3300104: Rectangle006 23
+    3300106: Rectangle006 24
+    3300108: Rectangle006 25
+    3300110: Rectangle006 26
+    3300112: Rectangle006 27
+    3300114: Rectangle006 28
+    3300116: Rectangle006 29
+    3300118: Rectangle006 3
+    3300120: Rectangle006 30
+    3300122: Rectangle006 31
+    3300124: Rectangle006 32
+    3300126: Rectangle006 33
+    3300128: Rectangle006 34
+    3300130: Rectangle006 35
+    3300132: Rectangle006 4
+    3300134: Rectangle006 5
+    3300136: Rectangle006 6
+    3300138: Rectangle006 7
+    3300140: Rectangle006 8
+    3300142: Rectangle006 9
+    3300144: Rectangle007
+    3300146: Rectangle007 1
+    3300148: Rectangle007 10
+    3300150: Rectangle007 11
+    3300152: Rectangle007 12
+    3300154: Rectangle007 13
+    3300156: Rectangle007 14
+    3300158: Rectangle007 15
+    3300160: Rectangle007 16
+    3300162: Rectangle007 17
+    3300164: Rectangle007 18
+    3300166: Rectangle007 19
+    3300168: Rectangle007 2
+    3300170: Rectangle007 20
+    3300172: Rectangle007 21
+    3300174: Rectangle007 22
+    3300176: Rectangle007 23
+    3300178: Rectangle007 24
+    3300180: Rectangle007 25
+    3300182: Rectangle007 26
+    3300184: Rectangle007 27
+    3300186: Rectangle007 28
+    3300188: Rectangle007 29
+    3300190: Rectangle007 3
+    3300192: Rectangle007 30
+    3300194: Rectangle007 31
+    3300196: Rectangle007 32
+    3300198: Rectangle007 33
+    3300200: Rectangle007 34
+    3300202: Rectangle007 35
+    3300204: Rectangle007 4
+    3300206: Rectangle007 5
+    3300208: Rectangle007 6
+    3300210: Rectangle007 7
+    3300212: Rectangle007 8
+    3300214: Rectangle007 9
+    3300216: Rectangle043
+    3300218: Rectangle043 1
+    3300220: Rectangle043 10
+    3300222: Rectangle043 11
+    3300224: Rectangle043 12
+    3300226: Rectangle043 13
+    3300228: Rectangle043 14
+    3300230: Rectangle043 15
+    3300232: Rectangle043 16
+    3300234: Rectangle043 17
+    3300236: Rectangle043 18
+    3300238: Rectangle043 19
+    3300240: Rectangle043 2
+    3300242: Rectangle043 20
+    3300244: Rectangle043 21
+    3300246: Rectangle043 22
+    3300248: Rectangle043 23
+    3300250: Rectangle043 24
+    3300252: Rectangle043 25
+    3300254: Rectangle043 26
+    3300256: Rectangle043 27
+    3300258: Rectangle043 28
+    3300260: Rectangle043 29
+    3300262: Rectangle043 3
+    3300264: Rectangle043 30
+    3300266: Rectangle043 31
+    3300268: Rectangle043 32
+    3300270: Rectangle043 33
+    3300272: Rectangle043 4
+    3300274: Rectangle043 5
+    3300276: Rectangle043 6
+    3300278: Rectangle043 7
+    3300280: Rectangle043 8
+    3300282: Rectangle043 9
+    3300284: Shape001
+    3300286: Shape002
+    3300288: Shape003
+    4300000: Shape001
+    4300002: Shape002
+    4300004: Shape003
+    4300006: Rectangle007
+    4300008: Rectangle007
+    4300010: Rectangle007
+    4300012: Rectangle007
+    4300014: Rectangle007
+    4300016: Rectangle007
+    4300018: Rectangle007
+    4300020: Rectangle007
+    4300022: Rectangle007
+    4300024: Rectangle007
+    4300026: Rectangle007
+    4300028: Rectangle007
+    4300030: Rectangle007
+    4300032: Rectangle007
+    4300034: Rectangle007
+    4300036: Rectangle007
+    4300038: Rectangle007
+    4300040: Rectangle007
+    4300042: Rectangle007
+    4300044: Rectangle007
+    4300046: Rectangle007
+    4300048: Rectangle007
+    4300050: Rectangle007
+    4300052: Rectangle007
+    4300054: Rectangle007
+    4300056: Rectangle007
+    4300058: Rectangle007
+    4300060: Rectangle007
+    4300062: Rectangle007
+    4300064: Rectangle007
+    4300066: Rectangle007
+    4300068: Rectangle007
+    4300070: Rectangle007
+    4300072: Rectangle007
+    4300074: Rectangle007
+    4300076: Rectangle007
+    4300078: Rectangle006
+    4300080: Rectangle006
+    4300082: Rectangle006
+    4300084: Rectangle006
+    4300086: Rectangle006
+    4300088: Rectangle006
+    4300090: Rectangle006
+    4300092: Rectangle006
+    4300094: Rectangle006
+    4300096: Rectangle006
+    4300098: Rectangle006
+    4300100: Rectangle006
+    4300102: Rectangle006
+    4300104: Rectangle006
+    4300106: Rectangle006
+    4300108: Rectangle006
+    4300110: Rectangle006
+    4300112: Rectangle006
+    4300114: Rectangle006
+    4300116: Rectangle006
+    4300118: Rectangle006
+    4300120: Rectangle006
+    4300122: Rectangle006
+    4300124: Rectangle006
+    4300126: Rectangle006
+    4300128: Rectangle006
+    4300130: Rectangle006
+    4300132: Rectangle006
+    4300134: Rectangle006
+    4300136: Rectangle006
+    4300138: Rectangle006
+    4300140: Rectangle006
+    4300142: Rectangle006
+    4300144: Rectangle006
+    4300146: Rectangle006
+    4300148: Rectangle006
+    4300150: Rectangle043
+    4300152: Rectangle043
+    4300154: Rectangle043
+    4300156: Rectangle043
+    4300158: Rectangle043
+    4300160: Rectangle043
+    4300162: Rectangle043
+    4300164: Rectangle043
+    4300166: Rectangle043
+    4300168: Rectangle043
+    4300170: Rectangle043
+    4300172: Rectangle043
+    4300174: Rectangle043
+    4300176: Rectangle043
+    4300178: Rectangle043
+    4300180: Rectangle043
+    4300182: Rectangle043
+    4300184: Rectangle043
+    4300186: Rectangle043
+    4300188: Rectangle043
+    4300190: Rectangle043
+    4300192: Rectangle043
+    4300194: Rectangle043
+    4300196: Rectangle043
+    4300198: Rectangle043
+    4300200: Rectangle043
+    4300202: Rectangle043
+    4300204: Rectangle043
+    4300206: Rectangle043
+    4300208: Rectangle043
+    4300210: Rectangle043
+    4300212: Rectangle043
+    4300214: Rectangle043
+    4300216: Rectangle043
+    4300218: Object002
+    4300220: Object002
+    4300222: Object002
+    4300224: Object002
+    4300226: Object002
+    4300228: Object002
+    4300230: Object002
+    4300232: Object002
+    4300234: Object002
+    4300236: Object002
+    4300238: Object002
+    4300240: Object002
+    4300242: Object002
+    4300244: Object002
+    4300246: Object002
+    4300248: Object002
+    4300250: Object002
+    4300252: Object002
+    4300254: Object002
+    4300256: Object002
+    4300258: Object002
+    4300260: Object002
+    4300262: Object002
+    4300264: Object002
+    4300266: Object002
+    4300268: Object002
+    4300270: Object002
+    4300272: Object002
+    4300274: Object002
+    4300276: Object002
+    4300278: Object002
+    4300280: Object002
+    4300282: Object002
+    4300284: Object002
+    4300286: Object002
+    4300288: Object002
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
