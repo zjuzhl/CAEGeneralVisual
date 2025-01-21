@@ -26,6 +26,8 @@ public class AsFiniteRender {
 
 	public static void DrawElementsLines(Vector3[] Nodes, List<int[]> indexs, Material elemMat)
 	{
+		if (indexs.Count <= 0) return;
+		if (Nodes.Length <= 0) return;
 		for (int i = 0; i < indexs.Count; i++) 
 		{
 			DrawStraightLine (Nodes[indexs[i][0]], Nodes[indexs[i][1]], elemMat);

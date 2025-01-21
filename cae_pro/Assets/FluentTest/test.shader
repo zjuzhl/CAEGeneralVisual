@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Custom/test"
  {
     SubShader   
@@ -28,7 +30,7 @@ Shader "Custom/test"
                  
                 V2F output;
      
-                output.pos = mul(UNITY_MATRIX_MVP,v.vertex);
+                output.pos = UnityObjectToClipPos(v.vertex);
      
                 //output.txr1 = v.texcoord;
                 

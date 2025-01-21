@@ -108,11 +108,14 @@ public class AsNodeData {
 		for (int i = 0; i < starts.Length; i++) {
 			for (int j = 1; j <= SingleDataCol; j++) {
 				if (i*SingleDataCol+j <= NodeIndex) {
-					temp = new Vector3 ();
-					float.TryParse (fnd [starts[i] + j] [1], out temp.x);
-					float.TryParse (fnd [starts[i] + j] [2], out temp.y);
-					float.TryParse (fnd [starts[i] + j] [3], out temp.z);
-					data.Add (temp);
+					var idx = starts[i] + j;
+					if (idx < fnd.Count) {
+						temp = new Vector3();
+						float.TryParse(fnd[starts[i] + j][1], out temp.x);
+						float.TryParse(fnd[starts[i] + j][2], out temp.y);
+						float.TryParse(fnd[starts[i] + j][3], out temp.z);
+						data.Add(temp);
+					}
 				}
 			}
 		}

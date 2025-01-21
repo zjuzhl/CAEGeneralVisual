@@ -18,10 +18,8 @@ public class color_sample : MonoBehaviour {
 	}; 
 	Color [] c_L;
 	float[] _midPointT;
-	public GameObject ob;
 	float [] f_area;
 
-	public Material red;
 	color_change_new cc_script;
 	Mesh mesh;
 	List<GameObject> g_L;
@@ -40,7 +38,7 @@ public class color_sample : MonoBehaviour {
 		c_L[8]=new Color(255/255.0f,0,0);
 		_midPointT=new float[121];
 		fetch_real_array();
-		 mesh = ob.GetComponent<MeshFilter>().mesh;
+		 
 
 		f_area=new float[10];
 		float min,max;
@@ -123,13 +121,13 @@ public class color_sample : MonoBehaviour {
 		g_L=new List<GameObject>();
 	}
 
-	public void NodeSolution(){
+	public void NodeSolution( GameObject father, GameObject ob, Material mat){
 		clear();
 		//			this.transform.GetComponent<new_date_input>().clear();
 		cc_script.init(9,f_area);
 		Vector3 []vv=new Vector3[121];
 
-		Vector3 [] temp = this.GetComponent<data> ().vecs;
+		Vector3 [] temp = (new data()).vecs;
 		for (int i = 0; i < 121; i++) {
 			vv [i] = new Vector3(temp[i].x, 0, temp[i].y);
 			//				Debug.Log (vv [i].x + "  " + vv [i].y + "  " + vv [i].z);
@@ -152,14 +150,14 @@ public class color_sample : MonoBehaviour {
 		{
 			GameObject ob1=new GameObject(ob.name+i.ToString(), typeof(MeshFilter), typeof(MeshRenderer));
 			g_L.Add(ob1);
-			//				ob1.transform.position=ob.transform.position;
-			ob1.transform.parent = GameObject.Find ("NodeSolution").transform;
+			ob1.transform.parent = father.transform;
 			ob1.transform.localPosition = new Vector3 (0, 0, 0);
 		}
 		mesh_create mc=new mesh_create();
 
 
-		Shader ss=red.shader;
+		Shader ss= mat.shader;
+		mesh = ob.GetComponent<MeshFilter>().mesh;
 		mesh.Clear();
 		for(int i=0;i<9;i++)
 		{
