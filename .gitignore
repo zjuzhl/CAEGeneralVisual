@@ -1,0 +1,7 @@
+cae_pro/Library/
+cae_pro/obj/
+cae_pro/Logs/
+*.vsconfig
+*.sln
+*.csproj
+cae_pro/.vs/

@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Maxwell.unity
-  isLoaded: 1
-  isActive: 1
