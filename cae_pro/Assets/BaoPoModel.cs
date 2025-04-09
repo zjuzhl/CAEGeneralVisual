@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
 public class BaoPoModel : MonoBehaviour {
 
@@ -28,18 +26,10 @@ public class BaoPoModel : MonoBehaviour {
     public Material Colmat;
     private Material mymat;
 
-
-    public bool isYuntu = false;
-
-
     GeneralData gdd = new GeneralData();
 
     public Camera mainCamera;
     public Camera aidCamera;
-
-    public Texture2D t2dZJU;
-
-    //public Texture2D t2dDongHua;
 
     public int flag = 0;
 
@@ -47,7 +37,6 @@ public class BaoPoModel : MonoBehaviour {
 	void Start () {
 
         mymat = Colmat;
-        isYuntu = true;
 
         oNodeData = TextFileOperation.Read(Application.dataPath + "\\Resources\\NLIST.lis");
         fNodeData = AsNodeData.ExtractNodeData(oNodeData);
@@ -55,22 +44,11 @@ public class BaoPoModel : MonoBehaviour {
 
         Debug.Log("n: " + ANSNodeData.Length);
 
-        //for (int i = 0; i < 10; i++)
-        //{
-        //    Debug.Log(i + " : " + ANSNodeData[i].x + " , " + ANSNodeData[i].y + " , " + ANSNodeData[i].z);
-        //}
-
         oElemData = TextFileOperation.Read(Application.dataPath + "\\Resources\\ELIST.lis");
         fElemData = AsElementData.ExtractElemData(oElemData);
         ANSElemData = AsElementData.GetElemData(fElemData);
 
         Debug.Log("e: " + ANSElemData.Length);
-
-        //for (int i = 0; i < 10; i++)
-        //{
-        //    Debug.Log(i + " : " + ANSElemData[i][0] + " , " + ANSElemData[i][1] + " , "
-        //        + ANSElemData[i][2] + " , " + ANSElemData[i][3]);
-        //}
 
         gdd.NodeCoord = new List<double[]>();
 
@@ -78,8 +56,6 @@ public class BaoPoModel : MonoBehaviour {
         {
             gdd.NodeCoord.Add(new double[] { ANSNodeData[i].x, ANSNodeData[i].y, ANSNodeData[i].z });
         }
-        //gdd.NodeOffPos = dd;
-        //Debug.Log(gdd.NodeOffPos[gdd.NodeOffPos.Count - 1][0] + "  " + gdd.NodeOffPos[gdd.NodeOffPos.Count - 1][1] + "  " + gdd.NodeOffPos[gdd.NodeOffPos.Count - 1][2]);
 
         gdd.Elem_NodesIndex = new List<int[]>();
         for (int i = 0; i < ANSElemData.Length; i++)
@@ -88,13 +64,8 @@ public class BaoPoModel : MonoBehaviour {
             gdd.Elem_NodesIndex.Add(new int[] { ANSElemData[i][0], ANSElemData[i][2], ANSElemData[i][3] });
         }
 
-        //Debug.Log(gdd.Elem_NodesIndex.Count);
-
-
-        //Button btn = yourButton.GetComponent<Button>();
-        //btn.onClick.AddListener(TaskOnClick);
-
-	}
+        StartMovie();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -104,44 +75,7 @@ public class BaoPoModel : MonoBehaviour {
     public void StartMovie()
     {
         StopAllCoroutines();
-            if (isYuntu)
-            {
-                StartCoroutine("SlutionDEAL");
-            }
-            else {
-                StartCoroutine("DisplaceDEAL");
-            }
-    }
-    public void SwichMaterial()
-    {
-        if (isYuntu)
-        {
-            mymat = mat;
-            isYuntu = false;
-        }
-        else
-        {
-            mymat = Colmat;
-            isYuntu = true;
-        }
-    }
-
-    public void SwichViewPort()
-    {
-        if (mainCamera.rect.x == 0)
-        {
-            aidCamera.depth = -1;
-            mainCamera.depth = 0;
-            aidCamera.rect = new Rect(0, 0, 1, 1);
-            mainCamera.rect = new Rect(0.8f, 0.7f, 0.2f, 0.3f);
-        }
-        else
-        {
-            aidCamera.depth = 0;
-            mainCamera.depth = -1;
-            mainCamera.rect = new Rect(0, 0, 1, 1);
-            aidCamera.rect = new Rect(0.8f, 0.7f, 0.2f, 0.3f);
-        }
+        StartCoroutine("SlutionDEAL");
     }
 
     void Function(string path, string path1, Material mat)
@@ -164,20 +98,7 @@ public class BaoPoModel : MonoBehaviour {
 
         Flt_YunTu_JianBian fyj = new Flt_YunTu_JianBian();
         fyj.NewShowColors(obj, obj_1, gdd, 0, _max[1], _max[0], mat, true, 0.001f * 100);
-        if (isYuntu)
-        {
-            fyj.CreatePrefabStaff("Staff_", @"应变(×0.01)", _max[1], _max[0], new Vector3(0, -350, 0), 100);
-        }
-        else {
-            GameObject gg = GameObject.Find("Staff_");
-            if (gg != null)
-            {
-                GameObject.DestroyImmediate(gg);
-            }
-        }
-
-
-
+        //fyj.CreatePrefabStaff("Staff_", @"应变(×0.01)", _max[1], _max[0], new Vector3(0, -350, 0), 100);
     }
 
     void Function(string path, Material mat) 
@@ -199,6 +120,7 @@ public class BaoPoModel : MonoBehaviour {
         fyj.NewShowObjMat(obj, obj_1, gdd, mat, true, 0.001f * 100);    
        
     }
+
     IEnumerator SlutionDEAL()
     {
         Function(@"Resources\\BaoPo\\1\\nsol-d-1-1.lis", @"Resources\\BaoPo\\1\\nsol-s-1-1.lis", mymat);
@@ -537,9 +459,6 @@ public class BaoPoModel : MonoBehaviour {
         yield return new WaitForEndOfFrame();
         Debug.Log("finish");
     }
-
-
-
 
     IEnumerator DisplaceDEAL() 
     {
@@ -880,7 +799,6 @@ public class BaoPoModel : MonoBehaviour {
         Debug.Log("finish");
 
     }
-
 
     public static List<double[]> ExtractDispData(List<string> ond, int NumCount, ref int[] MaxIndexs, ref double[] MaxValues)
     {
